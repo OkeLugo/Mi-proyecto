@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img id="logo1" src="../img/logo1.jpg" alt="logo del la app"></a>
+        <nav id="menu">
+            <ul id="barNav">
+                <button> <a href="../pages/acercaDe.html">Acerca de</a></button>
+                <button><a href="../pages/comUnidad.html">Com<b>Unidad</b></a> </button>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section id="inicioSesion">
+        <h2 id="inCredencial">Ingresa tus credenciales para iniciar sesion:</h2>
+        <h1 class="animate__animated animate__bounce">An animated element</h1>
+        <form id="inputUser"> 
+            <div id="nombreUsuario">
+                <label for="user"> Nombre de usuario: </label>
+                <input type="text" id="user" required />
+            </div>
+            <div id="password">
+                <label for="password"> Contraseña: </label>
+                <input type="password" id="password" required />
+            </div>
+            <button id="inicSec" type="submit"> Iniciar Sesión</button>
+        </form>
+        <div id="registr">
+            <h3>Todavia no estás registrado?<a href="../pages/registro.html"> Registrate</a></h3>
+            <h3>Olvidaste tu contraseña?<a href="#"> Recuperar Contraseña</a></h3>
+        </div>
+    </section>
+    <hr>
+    <script src="https://kit.fontawesome.com/8223b356bf.js" crossorigin="anonymous"></script>
+    <script src="../js/registro.js"></script>
+    <footer>
+        <div id="datos">
+            <p>Dirección: Boulevard de los sueños rotos 123</p>
+            <p>Tlf: +5491129234123</p>
+            <p>Email codoacodoblog@gmail.com</p>
+        </div>
+        <nav id="redes">
+            <h3>Nuestras redes sociales</h3>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+    </footer>
+
+</html>

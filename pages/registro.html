@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img id="logo1" src="../img/logo1.jpg" alt="logo del la app"></a>
+        <nav id="menu">
+            <ul id="barNav">
+                <button> <a href="../pages/acercaDe.html">Acerca de</a></button>
+                <button><a href="../pages/comUnidad.html">Com<b>Unidad</b></a> </button>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section id="registroDeUsuario">
+        <h2 id="regUser">Registrar usuario:</h2>
+        <form id="registro"> 
+            <div id="nombreDeUsuario">
+                <label for="user"> Nombre de usuario: </label>
+                <input type="text" id="user" required />
+                <p>Obligatorio. Max 150 caracteres, letras, numeros y caracteres <strong>@/./+/_.</strong></p>
+            </div>
+            <div id="nombre">
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre" required />
+            </div>
+            <div id="apellido">
+                <label for="apellido"> Apellido: </label>
+                <input type="text" id="apellido" required />
+            </div>
+            <div id="contrasena">
+                <label for="contrasena"> Contraseña: </label>
+                <input type="password" id="contrasena" required />
+            </div> 
+            <ul id="reglas">
+                <li>Su contraseña no puede ser igual a otros componentes de su información personal</li>
+                <li>Su contraseña debe contener al menos 8 caracteres</li>
+                <li>Su contraseña no puede ser una contraseña usada normalmente</li>
+                <li>Su ontraseña no puede estar compuesta exclusivamente por números</li>
+            </ul>
+            <div id="confContrasena">
+                <label for="confContrasena"> Confirmar Contraseña: </label>
+                <input type="password" id="confContrasena" required />
+            </div>
+            <p>*Introduzca nuevamente su contraseña</p>
+            <div id="cursos">
+                <label for="cursos"> Curso realizado</label>
+                <select name="cursos" id="cursoRealizado">
+                    <option value="selecCurso"><b>Seleccionar Curso</b></option>
+                    <option value="cAc">Curso: <b>CODO A CODO INICIAL</b></option>
+                    <option value="fullStackPython">Curso: <b>FULL STACK PYTHON</b></option>
+                    <option value="cAc">Curso: <b>FULL STACK JAVA</b></option>
+                    <option value="fullStackPython">Curso: <b>FULL STACK JAVASCRIPT/NODE.JS</b></option>
+                    <option value="cAc">Curso: <b>TESTING AUTOMATIZADO Y QA</b></option>
+                    <option value="fullStackPython">Curso: <b>DISEÑO UX/UI/b></option>
+                    <option value="cAc">Curso: <b>BIG DATA ANALYTICS</b></option>
+                    <option value="fullStackPython">Curso: <b>ESP. UNITY</b></option>
+                </select>
+            </div>
+            <div id="email">
+                <label for="email"> Dirección de Email: </label>
+                <input type="email" id="email" required />
+            </div>
+            <div id="imagenPerfil">
+                <label for="imagenPerfil"> Imagen de Perfil: </label>
+                <input type="file" id="imagenPerfil" />
+            </div>
+            <button id="inicSec" type="submit">Registrarse</button>
+        </form>
+        <h3 id="yaTienes">Ya tienes una cuenta? <button><a href="../pages/iniciarSesion.html">Iniciar Sesión</a> </button></h3>
+    </section>
+    <hr>
+    <script src="https://kit.fontawesome.com/8223b356bf.js" crossorigin="anonymous"></script>
+    <script src="../js/registro.js"></script>
+    <footer>
+        <div id="datos">
+            <p>Dirección: Boulevard de los sueños rotos 123</p>
+            <p>Tlf: +5491129234123</p>
+            <p>Email codoacodoblog@gmail.com</p>
+        </div>
+        <nav id="redes">
+            <h3>Nuestras redes sociales</h3>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+    </footer>
+
+</html>

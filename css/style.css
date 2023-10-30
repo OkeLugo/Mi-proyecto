@@ -1,0 +1,743 @@
+body {
+    background-color: rgb(244, 248, 183);
+    font-size: 16px;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+    float: left;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#logo1 {
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+    float: left;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#menu {
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-top: 60px;
+    display: inline;
+    place-content: right;
+}
+
+#barNav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+
+}
+button{
+    display: inline-block;
+    background-color: rgb(205, 241, 241);
+    color: blue;
+    border-radius: 40px;
+    text-decoration: none;
+    list-style-type: none;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+#barNav button {
+    display: inline-block;
+    background-color: rgb(205, 241, 241);
+    color: blue;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-left: 30px;
+    list-style-type: none;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(166, 100, 228);
+}
+
+a:hover {
+    color: rgb(220, 136, 10);
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 960px;
+    padding: auto;
+}
+
+section {
+    width: 960px;
+    height: 800px;
+    max-height: 800px;
+    min-height: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#bienvenida {
+    width: 960px;
+    height: 600px;
+}
+
+#imagenProgramador {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url(../img/programFeliz.jpg);
+}
+
+#textoBienvenida {
+    width: 600px;
+    height: 150px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(4, 1, 25);
+}
+
+
+#imagenServidor {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 10px;
+    background-image: url(../img/servidor2.jpg);
+    background-size: cover;
+}
+
+#textoDerecho {
+    width: 180px;
+    height: 400px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+
+}
+
+#textoDerecho h4 {
+    text-size-adjust: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+
+#textoDerecho a {
+    text-size-adjust: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#videoPpal {
+    margin-top: 70px;
+    width: 550px;
+    height: 400px;
+    float: left;
+}
+
+#noticias {
+    width: 180px;
+    height: 400px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+
+#articulo1 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#articulo1 li {
+    display: block;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#articulo1 li a {
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+footer {
+    width: 960px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#datos {
+    width: 300px;
+    height: 180px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#redes {
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-top: 10px;
+}
+
+#redes h3 {
+    font-size: 16px;
+    color: rgb(8, 2, 14);
+    text-align: right;
+}
+
+#redes a {
+    float: right;
+    margin-left: 10px;
+    size: 20px;
+
+}
+/* inicia html comUnidad */
+#comUnidad {
+    width: 960px;
+    height: 800px;
+}
+
+#bienvenidaCom {
+    width: 960px;
+    height: 150px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(84, 28, 156);
+}
+
+#listaCategorias {
+    width: 950;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#selecCategoria {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(5, 80, 10);
+}
+
+#container {
+    width: 950px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+#container button {
+    width: 190px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#4 {
+    border-top: 10px;
+    margin-top: 20px
+}
+/* fin html comUnidad */
+
+/* Inicio html acerca de */
+#acercaDe {
+    width: 960px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#textoAcerca {
+    text-align: center;
+}
+
+#textoAcerca{
+    font-size: 30px;
+    color: #18577c;
+}
+
+#listaOpciones {
+    color: rgb(83, 17, 99);
+    font-size: 17px;
+}
+/* Fin html acerca de */
+
+/* Inicio html Inicio de sesión */
+
+#inicioSesion {
+    width: 960px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#inCredencial {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: rgb(187, 21, 21);
+
+}
+
+#inputUser {
+    width: 960px;
+    height: 200px;
+    display: block;
+}
+
+#nombreUsuario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: blue;
+}
+
+#password {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: blue;
+    margin-left: 25px;
+}
+/* Fin html Inicio de sesión */
+
+/* Inicio html registro de usuario */
+#registroDeUsuario {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(1, 1, 32);
+}
+
+#regUser {
+    font-size: 30px;
+    color: rgb(69, 14, 120);
+}
+
+#datosPersonales {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    color: blue;
+    text-align: justify;
+}
+
+#nombreDeUsuario {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+#nombreDeUsuario p {
+    color: black;
+}
+
+#nombre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+#apellido {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+#contrasena {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+#confContrasena {
+    margin-top: 10px;
+    color: blue;
+}
+
+#cursos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+#imagenPerfil {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(5, 5, 210);
+}
+
+#reglas {
+    width: 500px;
+    float: left;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-align: justify;
+}
+
+#inicSec {
+    background-color: rgb(42, 42, 162);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #fafafa;
+    font-size: 17px;
+    padding: 19px;
+    text-decoration: none;
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+    text-decoration: none;
+}
+#yaTienes{
+    color: #18577c;
+}
+/* Fin html registro de usuario */
+
+/* a partir de aqui es el responsive */
+
+@media all and (min-width:600px) and (max-width:1023px) {
+   
+    header {
+        width: 550px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    hr {
+        width: 550px;
+        padding: auto;
+    }
+    
+    section {
+        width: 550px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    
+    #bienvenida {
+        width: 550px;
+        height: 100px;
+    }
+    
+    #imagenProgramador {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background-size: cover;
+        background-image: url(../img/programFeliz.jpg);
+    }
+    
+    #textoBienvenida {
+        width: 320px;
+        height: 100px;
+        font-size: 10px;
+        float: left;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        color: rgb(4, 1, 25);
+    }
+    
+    
+    #imagenServidor {
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-left: 10px;
+        background-image: url(../img/servidor2.jpg);
+        background-size: cover;
+    }
+    
+    #textoDerecho {
+        width: 100px;
+        height: 300px;
+        float: left;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #videoPpal {
+        width: 300px;
+        height: 300px;
+        float: left;
+    }
+    
+    #noticias {
+        margin-top: 20px;
+        width: 100px;
+        height: 300px;
+        float: right;
+    
+    }
+    
+    #articulo1 li {
+        display: block;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 10px;
+    }
+
+    footer {
+        width: 550px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #datos {
+        width: 100px;
+        height: 180px;
+        float: left;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+    
+    #redes {
+        width: 150px;
+        height: 40px;
+        float: right;
+    }
+    
+    #redes h3 {
+        font-size: 10px;
+        color: rgb(8, 2, 14);
+        text-align: right;
+    }
+    
+    #redes a {
+        float: right;
+        margin-left: 10px;
+    }
+    
+}
+/* Fin media 600px a 1023px */
+
+/* Inicio media 599px*/
+
+@media all and (max-width:599px) {
+     header {
+        width: 530px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logo {
+        width: 55px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: 10px;
+        background-size: cover;
+        float: left;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+    #menu {
+        width: 400px;
+        height: 40px;
+        float: right;
+        margin-top: 50px;
+        margin-right: 40px;
+        display: inline;
+        place-content: right;
+    }
+       
+    #barNav button {
+        display: inline-block;
+        background-color: rgb(205, 241, 241);
+        color: blue;
+        border-radius: 15px;
+        font-size: 10px;
+        text-decoration: none;
+        margin-left: 10px;
+        list-style-type: none;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+    hr {
+        width: 500px;
+        padding: auto;
+    }
+    section {
+        width: 530px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    
+    #bienvenida {
+        width: 500px;
+        height: 80px;
+    }
+    
+    #imagenProgramador {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background-size: cover;
+        background-image: url(../img/programFeliz.jpg);
+    }
+    
+    #textoBienvenida {
+        width: 300px;
+        height: 100px;
+        float: left;
+        font-size: 10px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        color: rgb(4, 1, 25);
+    }
+    
+    #imagenServidor {
+        width: 80px;
+        height: 80px;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background-size: cover;
+        background-image: url(../img/servidor2.jpg);
+        background-size: cover;
+    }
+    
+    #textoDerecho {
+        width: 100px;
+        height: 100px;
+        float: left;
+        font-size: 10px;
+        text-align: center;
+    
+    }
+    #videoPpal {
+        margin-top: 70px;
+        width: 250px;
+        float: left;
+    }
+    
+    #noticias {
+        width: 80px;
+        height: 100px;
+        float: right;
+    
+    }
+    
+    #articulo1 li {
+        display: block;
+        text-align: center;
+        padding-top: 80px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    
+    
+    footer {
+        width: 500px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+    
+    #datos {
+        width: 100px;
+        height: 180px;
+        font-size: 10px;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    #redes {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    #redes h3 {
+        font-size: 10px;
+        color: rgb(8, 2, 14);
+        text-align: right;
+    }
+    
+    #redes a {
+        float: right;
+        size: 20px;
+    
+    }
+}
